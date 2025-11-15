@@ -6,8 +6,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 ruby File.read('.ruby-version').strip
 
 gem 'jekyll', '~> 4.3.0'
-# This is your Jekyll Theme
-gem 'type-on-strap', '~> 2.4.5'
+# Theme files are included locally, no remote theme gem needed
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
