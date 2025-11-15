@@ -1,0 +1,33 @@
+# Icons on the footer
+rss: false
+links:
+  - title: Email
+    link: mailto:info@nktxr.com
+    icon: fa-email
+  - title: GitHub
+    link: https://github.com/nktxr
+    icon: fa-github
+  - title: LinkedIn
+    link: https://www.linkedin.com/in/nick-tucker-885a734a/
+    icon: fa-linkedin
+  - title: Instagram
+    link: https://instagram.com/nktxr
+    icon: fa-instagram
+  - title: Facebook
+    link: https://www.facebook.com/profile.php?id=100009390723711
+    icon: fa-facebook
+  - title: Website Homepage
+    link: https://www.nktxr.com
+    icon: fa-readme
+
+# Share button options
+share:
+  facebook: false
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit: true
+  linkedin: false
+  wordpress:
+  email: true

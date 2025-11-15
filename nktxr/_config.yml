@@ -1,0 +1,72 @@
+# Build settings
+theme: type-on-strap
+# remote_theme: sylhare/Type-on-Strap
+color_theme: auto
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-twitch
+  - jekyll-youtube
+
+# Site Settings
+author:
+  name: Nick Tucker
+  picture: /img/profile_pic.png
+  twitter: nktxr
+baseurl: "/" # the subpath of your site, e.g. /blog
+description: >- # this means to ignore newlines until "baseurl:"
+  Senior DevOps/Platform Engineer
+favicon: assets/favicon.png
+future: true
+tagline: Personal links and projects of Nick Tucker
+# title: Nick Tucker
+twitter:
+  username: nktxr
+  card: summary
+social:
+  name: nktxr
+  links:
+    - mailto:info@nktxr.com
+    - https://github.com/nktxr
+    - https://instagram.com/nktxr
+    - https://www.facebook.com/profile.php?id=100009390723711
+    - https://www.linkedin.com/in/nick-tucker-885a734a/
+url: "https://www.nktxr.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  nktxr
+twitter_username: nktxr
+
+# Header and Footer
+header_text: Nick Tucker
+# header_feature_image: /assets/img/fib_phone_banner.JPG
+# footer_text: 
+
+# Blog
+excerpt: false
+
+# PAGINATION
+paginate: 10
+paginate_path: "blog/page:num"
+
+# Atom/RSS Feed
+# feed:
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
