@@ -6,8 +6,6 @@ color_theme: auto
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-twitch
-  - jekyll-youtube
 
 # Site Settings
 author:
@@ -19,8 +17,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Senior DevOps/Platform Engineer
 favicon: assets/favicon.png
 future: true
-tagline: Personal links and projects of Nick Tucker
-# title: Nick Tucker
+tagline: Contact and Social
+title: Nick Tucker
 twitter:
   username: nktxr
   card: summary
@@ -33,13 +31,13 @@ social:
     - https://www.facebook.com/profile.php?id=100009390723711
     - https://www.linkedin.com/in/nick-tucker-885a734a/
 url: "https://www.nktxr.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  nktxr
+github_username: nktxr
 twitter_username: nktxr
 
 # Header and Footer
 header_text: Nick Tucker
 # header_feature_image: /assets/img/fib_phone_banner.JPG
-# footer_text: 
+# footer_text:
 
 # Blog
 excerpt: false
@@ -47,7 +45,6 @@ excerpt: false
 # PAGINATION
 paginate: 10
 paginate_path: "blog/page:num"
-
 # Atom/RSS Feed
 # feed:
 
