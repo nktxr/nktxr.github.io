@@ -1,6 +1,6 @@
 /* --- links page styling -- */
 #links-page {
-  background: conic-gradient(from 125deg, var(--vivid-color-1), var(--vivid-color-2), var(--vivid-color-3), var(--vivid-color-4), var(--vivid-color-5), var(--vivid-color-1));
+  background: #000000;
   background-attachment: fixed;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -11,7 +11,7 @@
 #links-profile {
   #avatar {
     border-radius: 50%;
-    border: .2em solid var(--vivid-color-2);
+    border: 0.2em solid #000000;
     width: 50%;
     margin: 1em auto;
     display: block;
@@ -34,18 +34,8 @@
       margin: 1em 2em;
       padding: $padding-small;
       text-align: center;
-      background-color: var(--vivid-color-1);
+      background-color: #000000;
       color: white;
-
-      &:hover {
-        background-color: var(--vivid-color-2);
-        animation-name: limited-rainbow;
-        animation-duration: 3s;
-        animation-delay: .5s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        transition-duration: .5s;
-      }
     }
   }
 }
@@ -59,9 +49,19 @@
 }
 
 @keyframes limited-rainbow {
-  0%  {background-color: var(--vivid-color-2)}
-  50%  {background-color: var(--vivid-color-3)}
-  75%  {background-color: var(--vivid-color-4)}
-  90%  {background-color: var(--vivid-color-5)}
-  100% {background-color: var(--vivid-color-6)}
+  0% {
+    background-color: var(--vivid-color-2);
+  }
+  50% {
+    background-color: var(--vivid-color-3);
+  }
+  75% {
+    background-color: var(--vivid-color-4);
+  }
+  90% {
+    background-color: var(--vivid-color-5);
+  }
+  100% {
+    background-color: var(--vivid-color-6);
+  }
 }

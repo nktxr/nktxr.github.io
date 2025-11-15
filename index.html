@@ -4,10 +4,15 @@ image: assets/img/profile_pic.png
 description: Welcome to Nick Tucker's site
 permalink: /
 ---
+
 <div id="links-page">
   <div class="column">
     <div id="links-profile">
-      <img id="avatar" src="/assets{{site.author.picture}}" alt="Profile picture"/>
+      <img
+        id="avatar"
+        src="/assets{{site.author.picture}}"
+        alt="Profile picture"
+      />
       <p>Find my social and contact links below</p>
     </div>
     <ul id="links">
@@ -15,17 +20,16 @@ permalink: /
         <a href="/assets/docs/Resume.pdf" target="_blank">
           <i class="fas fa-file-pdf"></i>
           Resume
-        </a> -->
-      </li>
+        </a>
+      </li> -->
       {% for social in site.data.social.links %}
-        <li>
-          <a href="{{social.link}}" target="_blank">
-            <i class="fab {{ social.icon }}"></i>
-            {{social.title}}
-          </a>
-        </li>
+      <li>
+        <a href="{{social.link}}" target="_blank">
+          <i class="fab {{ social.icon }}"></i>
+          {{social.title}}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 </div>
-

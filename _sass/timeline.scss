@@ -25,7 +25,7 @@
     li {
       padding: 20px 20px;
       position: relative;
-      transition: .5s;
+      transition: 0.5s;
 
       span {
         display: inline-block;
@@ -46,33 +46,33 @@
         }
       }
 
-      &:before{
+      &:before {
         position: absolute;
-        content: '';
+        content: "";
         width: 10px;
         height: 10px;
         background-color: var(--vivid-color-2);
         border-radius: 50%;
         left: -11px;
         top: 28px;
-        transition: .5s;
+        transition: 0.5s;
       }
 
-      &:hover{
+      &:hover {
         background-color: var(--blockquote);
 
-        &:before{
+        &:before {
           background-color: var(--vivid-color-1);
-          box-shadow:0px 0px 10px 2px var(--vivid-color-1);
+          box-shadow: 0px 0px 10px 2px var(--vivid-color-1);
         }
       }
     }
   }
 }
 
-@media (max-width:300px){
-  .timeline{
-    width:100%;
-    padding:30px 5px 30px 10px;
+@media (max-width: 300px) {
+  .timeline {
+    width: 100%;
+    padding: 30px 5px 30px 10px;
   }
 }
