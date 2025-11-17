@@ -3,7 +3,7 @@ rss: false
 links:
   - title: Email
     link: mailto:info@nktxr.com
-    icon: fa-at
+    icon: fa-envelope
   - title: LinkedIn
     link: https://www.linkedin.com/in/nick-tucker-885a734a/
     icon: fa-linkedin
@@ -13,7 +13,7 @@ links:
   - title: Website Homepage
     link: https://nktxr.com
     icon: fa-readme
-
+ 
 # Share button options
 share:
   facebook: false
