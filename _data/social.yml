@@ -3,16 +3,16 @@ rss: false
 links:
   - title: Email
     link: mailto:info@nktxr.com
-    icon: fa-envelope
+    icon: fas fa-envelope
   - title: LinkedIn
     link: https://www.linkedin.com/in/nick-tucker-885a734a/
-    icon: fa-linkedin
+    icon: fab fa-linkedin
   - title: GitHub
     link: https://github.com/nktxr
-    icon: fa-github
+    icon: fab fa-github
   - title: Website Homepage
     link: https://nktxr.com
-    icon: fa-readme
+    icon: fab fa-readme
  
 # Share button options
 share:
