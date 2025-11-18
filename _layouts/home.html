@@ -1,18 +1,13 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+{% include default/head.liquid %}
+{% include default/navbar.liquid %}
 
-<div class="home">
-  <div
-    id="main-area"
-    class="call-out"
-    style="background-image: url('{{ site.header_feature_image | relative_url }}')"
-  >
-    <h1>
-      {{ site.header_text | default: "Change <code>header_text</code> in
-      <code>_config.yml</code>"}}
-    </h1>
-  </div>
+<div class="spacer" style="height: 60px;"></div>
 
-  {{ content }}
+<body>
+  <div class="content">{{ content }}</div>
+</body>
 </div>
+
+</html>
