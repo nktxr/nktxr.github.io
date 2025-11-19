@@ -11,7 +11,7 @@
       if (isAutoTheme) {
           document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme') ?? preferredTheme);
       } else {
-          document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'light' }}");
+          document.documentElement.setAttribute('data-theme', "{{ site.color_theme | default: 'dark' }}");
       }
   </script>
 
